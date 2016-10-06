@@ -1,0 +1,25 @@
+@relation klasifikasi-weka.filters.unsupervised.attribute.Remove-R1
+
+@attribute Kelas {Aman,Berbahaya}
+@attribute 'Kulit Buah' {Kasar,Halus}
+@attribute Warna {Coklat,Hijau,Merah}
+@attribute Ukuran {Besar,Kecil}
+@attribute Bau {keras,Lunak,lunak}
+
+@data
+Aman,Kasar,Coklat,Besar,keras
+Aman,Kasar,Hijau,Besar,keras
+Berbahaya,Halus,Merah,Besar,Lunak
+Aman,Kasar,Hijau,Besar,Lunak
+Aman,Kasar,Merah,Kecil,keras
+Aman,Halus,Merah,Kecil,keras
+Aman,Halus,Coklat,Kecil,keras
+Berbahaya,Kasar,Hijau,Kecil,lunak
+Berbahaya,Halus,Hijau,Kecil,keras
+Aman,Kasar,Merah,Besar,keras
+Aman,Halus,Coklat,Besar,Lunak
+Berbahaya,Halus,Hijau,Kecil,keras
+Aman,Kasar,Merah,Kecil,Lunak
+Berbahaya,Halus,Merah,Besar,keras
+Aman,Halus,Merah,Kecil,keras
+Berbahaya,Kasar,Hijau,Kecil,keras

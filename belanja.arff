@@ -1,0 +1,14 @@
+@RELATION transaksi 
+ 
+@ATTRIBUTE transid NUMERIC 
+@ATTRIBUTE itemA {y,n} 
+@ATTRIBUTE itemB {y,n} 
+@ATTRIBUTE itemC {y,n} 
+@ATTRIBUTE itemD {y,n} 
+@ATTRIBUTE itemE {y,n} 
+   
+@DATA 
+10,y,?,y,y,? 
+20,?,y,y,?,y 
+30,y,y,y,?,y 
+40,?,y,?,?,y 
